@@ -55,7 +55,7 @@ let states = [{
  * @returns {State}
  */
 export const getState = () => {
-    return Object.freeze({ ...states[0 ]})
+    return Object.freeze({ ...states[0]})
 }
 
 

@@ -16,7 +16,7 @@ export const reducer = (state, action) => {
             return {
                 ...state,
                 count: {
-                    value: state.count.value
+                    value: state.count.value+1
                 }
             }
         }
@@ -25,7 +25,7 @@ export const reducer = (state, action) => {
             return {
                 ...state,
                 count: {
-                    value: state.count.value
+                    value: state.count.value-1
                 }
             }
         }
