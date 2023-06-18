@@ -1,9 +1,12 @@
 //@ts-check
 
+import { Action } from "./actions.js"
+
 /**
  * @typedef {object} Counter
  * @prop {number} value
  */
+export const Counter = {}
 
 /**
  * @typedef {object} State
