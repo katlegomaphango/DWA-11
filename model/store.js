@@ -12,6 +12,7 @@ export const Counter = {}
  * @typedef {object} State
  * @prop {Counter} count
  */
+export const State = {}
 
 /**
  * @callback GetState
