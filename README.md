@@ -22,7 +22,7 @@ See below user stories (in Gherkin syntax):
   - AND the browser console is open
   - THEN the state should show a count of 2
 
-- SCENARIO: Increment the counter by one
+- SCENARIO: Decrement the counter by one
 
   - GIVEN the current count in the state is 2
   - WHEN a “SUBTRACT” action is dispatched
